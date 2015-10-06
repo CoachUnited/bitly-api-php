@@ -1,16 +1,21 @@
 {
-    "name": "bitly/bitly-api-php",
+    "name": "smartalgorithmjp/bitly-api-php",
     "type": "library",
     "description": "PHP client for the Bitly API",
     "keywords": ["bitly", "api"],
-    "homepage": "https://github.com/bitly/bitly-api-php",
+    "homepage": "https://github.com/smartalgorithmjp/bitly-api-php",
     "authors": [
         {
-            "name": "James Socol",
-            "email": "james@bit.ly",
+            "name": "Kazuya Saito",
+            "email": "saito@smartalgorithm.co.jp",
             "role": "Developer"
         }
     ],
     "license": "Apache Software License 2.0",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "autoload": {
+        "psr-0": {
+            "Bitly": "./"
+        }
+    }
 }
